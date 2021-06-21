@@ -1,0 +1,34 @@
+{
+    "version": 1.1,
+    "tags": [
+        {
+            "name": "body",
+            "description": "body",
+            "attributes": [
+                {
+                    "name": "controller",
+                    "description": "控制器",
+                    "values": [
+                        { "name": "alert" }
+                    ]
+                },
+                {
+                    "name": "option",
+                    "description": "页面配置",
+                    "values": [
+                        { "name": "{platform:'vue',use:'ELEMENT'}","description":"使用 element-ui" },
+                        { "name": "{platform:'vue'}","description":"使用 vue" },
+                        { "name": "{platform:'deafult'}","description":"默认控件体系" },
+                        { "name": "{platform:null}","description":"不使用框架" }
+                    ]
+                }
+            ],
+            "references": [
+                {
+                    "name": "Bootstrap buttons",
+                    "url": "https://getbootstrap.com/docs/4.0/components/buttons/"
+                }
+            ]
+        }
+    ]
+  }
